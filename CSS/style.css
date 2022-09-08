@@ -105,14 +105,17 @@ li {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 32px 27px 31px 371px;
+
+  padding: 32px 27px 0px 335px;
   color: var(--color-silver);
 }
 .mail {
   color: var(--grey);
   font-weight: 500;
   letter-spacing: 0.02em;
-  line-height: 1.14285714;
+  line-height: 1.14;
+  text-align: end;
+  justify-content: baseline;
 }
 .mail:hover {
   cursor: pointer;
@@ -429,4 +432,31 @@ h1 {
   padding-bottom: 20px;
   list-style: none;
   color: var(--color-silver);
+}
+
+/* ------------------------------------------------------------------------icons.svg */
+.icon {
+  fill: currentColor;
+  height: 20px;
+  margin-right: 2px;
+}
+.envelope {
+  background-image: url(../Images/envelope.svg);
+  background-repeat: no-repeat;
+  display: inline-flex;
+}
+.smartphone {
+  background-image: url(../Images/smartphone.svg);
+  background-repeat: no-repeat;
+}
+
+.description-icon-box {
+  background-color: var(--color-gray);
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
