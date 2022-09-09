@@ -142,7 +142,12 @@ li {
   height: 600px;
   background-color: var(--color-dark-gray);
   color: var(--color-white);
-  background-image: url(../Images/img_background.jpg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url(../Images/img_background.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
