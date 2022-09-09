@@ -441,12 +441,12 @@ h1 {
   margin-right: 2px;
 }
 .envelope {
-  background-image: url(../Images/envelope.svg);
+  background-image: url(../images/envelope.svg);
   background-repeat: no-repeat;
   display: inline-flex;
 }
 .smartphone {
-  background-image: url(../Images/smartphone.svg);
+  background-image: url(../images/smartphone.svg);
   background-repeat: no-repeat;
 }
 
@@ -460,3 +460,5 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
+.antenna {url()}
