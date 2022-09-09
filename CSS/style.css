@@ -203,7 +203,7 @@ h1 {
 }
 
 .major-lorem-text {
-  line-height: 1.71428571;
+  line-height: 1.72;
   color: var(--color-silver);
   margin: 0;
   padding-top: 10px;
@@ -501,7 +501,24 @@ h1 {
 .section {
 }
 .section-description {
+  background-color: var(--color-white);
+  padding-bottom: 0;
 }
 .description-icon-box {
   background-color: #757575;
+}
+.description-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.description-icon-box {
+  background-color: var(--color-silver);
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
